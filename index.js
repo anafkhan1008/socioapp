@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const { IgApiClient } = require('instagram-private-api');
 const axios = require('axios')
 const app = express();
-const port = 3000 | process.env.PORT;
+const port = process.env.PORT;
 
 
 
