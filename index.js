@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const express = require('express');
 const session = require('express-session');
 const { TwitterApi } = require('twitter-api-v2');
